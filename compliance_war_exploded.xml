@@ -1,0 +1,28 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="compliance:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/compliance_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="compliance" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="module" name="jxl.jar" module-name="compliance" />
+          <element id="library" level="module" name="commons-beanutils-1.8.0.jar" module-name="compliance" />
+          <element id="library" level="module" name="commons-collections-3.2.1.jar" module-name="compliance" />
+          <element id="library" level="module" name="commons-lang-2.5.jar" module-name="compliance" />
+          <element id="library" level="module" name="commons-logging-1.1.1.jar" module-name="compliance" />
+          <element id="library" level="module" name="ezmorph-1.0.6.jar" module-name="compliance" />
+          <element id="library" level="module" name="json-lib-2.4-jdk15.jar" module-name="compliance" />
+          <element id="library" level="module" name="jchardet-1.0.jar" module-name="compliance" />
+          <element id="library" level="module" name="antlr-2.7.5.jar" module-name="compliance" />
+          <element id="library" level="module" name="cpdetector_1.0.10.jar" module-name="compliance" />
+          <element id="library" level="module" name="itext-2.1.7.jar" module-name="compliance" />
+          <element id="library" level="module" name="itext-rtf-2.1.7.jar" module-name="compliance" />
+          <element id="library" level="module" name="iTextAsian.jar" module-name="compliance" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="compliance/web/Web" />
+    </root>
+  </artifact>
+</component>
